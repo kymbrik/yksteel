@@ -67,7 +67,7 @@ session_start();
 	<h2>
 
 		POPULAR PRODUCTS
-		<a href="index.php">index SASASASSAazazazzaJ</a>
+		<a href="index.php">index SASASASSAazazazz asratrgaraJ</a>
 		<? echo $_GET['id']."sdgsdg";?>
 	
 	</h2>

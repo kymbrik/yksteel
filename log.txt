@@ -1,0 +1,2 @@
+1) Создали таблицу products (id,name,category,description,imgurl)
+2) Создать необходимые страницы (корзина)

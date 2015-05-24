@@ -1,0 +1,410 @@
+body {
+    color: #8f8f8f;
+    font:19px 'Roboto', sans-serif;
+    background-color: #fff;
+    border-top: 5px solid #fff;
+    margin: auto;
+
+}
+
+#wrapper{
+   margin-left: auto;
+   margin-right: auto;
+
+   width: 1370px;
+   height: 2622px;
+}
+
+header{
+    
+    height: 124px;
+    padding: 0;
+}
+.contact{
+
+
+    padding: 0;
+    margin-top: 33px;
+    margin-left: 470px;
+    margin-right: 20px;
+
+}
+.phoneSection{
+    display: inline;
+}
+.phone{
+
+    padding-right: 5px;
+}
+.mailSection{display: inline;}
+.mailSection a{text-decoration: none;
+    color: #8f8f8f;}
+    .mail{
+        display: inline;
+        padding-right: 5px;
+    }
+
+    .basketAndCheckout{
+        height: 31px;
+        width: 220px;
+        display: inline;
+        margin-left: 20px;
+        padding-left: 18px;
+        padding-top: 8px;
+        padding-right: 18px;
+        padding-bottom: 8px;
+        border-color: #eeeeee;
+        border-style: solid;
+        border-size: 3px;
+    }
+    .basket{
+        padding-right: 20px;
+    }
+
+
+    .sum{
+        display: inline;
+    }
+    .checkout{
+        display: inline;
+    }
+
+    .logo{
+        position: absolute;
+        margin-top: 0px;
+        display: inline;
+        margin-left: 100px;
+        font-size: 23px;
+    }
+
+    hr.style-six{
+        position: absolute;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 80px;
+        border:0;
+        height:0;
+        width: 1170px;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    nav#main{
+        margin-top: 100px;
+        margin-left: 64px;
+    }
+    nav#productsBasket{
+        margin-left: -40px;
+        display: inline;
+      position: absolute;
+    }
+
+
+.allProducts{
+
+    width: 1370px;
+}
+
+figure {
+    display: block;
+
+    margin-top: 65px;
+     margin-left: 38px;
+     margin-right: 0;
+  float: left;
+    font-weight: 300;
+
+
+}
+
+.figDescr{
+
+}
+
+figure img {
+    display: block;
+    border: 1px solid #fff;
+    outline: 1px solid #c9c9c9;
+    
+}
+
+
+figure figcaption {
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 25px;
+    color:#f45a40;
+    text-align: center;
+    
+}
+
+
+
+figure figcaption span {
+    display: block;
+    font-size: 23px;
+    color: #29c5e6;
+}
+
+
+section > h2{
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 40px;
+ 
+
+}
+
+figure.products{
+   
+     margin-left: 60px;
+     width: 270px;
+    height:500px;
+    overflow: hidden;
+    /*position: absolute;*/  
+      float: left;
+
+}
+
+figure.products > figcaption{
+   
+     text-align:left;
+     color: #8f8f8f;
+     padding-left: 22px;
+     font-weight: bold;
+     background-color: white;
+       overflow: visible;
+
+     
+}
+
+figure.products > figcaption span{
+   
+   padding-top: 5px;
+     font-weight: normal;
+     font-size: 20px;
+     
+}
+
+figure.products > figcaption span.descr{
+     font-size: 15px;
+     padding-bottom: 5px;
+    border-bottom: 1px solid;
+    border-color: #8f8f8f;
+    margin-right: 22px;
+     
+}
+
+.productsInBasket{
+	display: inline;
+}
+.clear{
+    clear: both;
+}
+
+.signUp{
+    color: white;
+    background-color: #f45a40;
+    height: 100px;
+
+}
+.signUp > p{
+height: 100px; /* image's height */
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 100px;
+
+}
+.signUp > p > span {
+
+    font-weight: 600;
+}
+
+input[name="q"] {
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    height: 40px;
+    color: #b2b2b2;
+    padding: 0 10px;
+    vertical-align: top;
+    width: 250px;
+    font: 19px "Roboto",sans-serif;
+
+}
+form[name="search"] {
+    
+    float: right;
+    margin-top:-70px;
+    margin-right: 100px;
+    
+    margin-left: 600px;
+}
+
+button.sendMessage {
+    color: #fff;
+    background-color: #ff674f;
+    border: none;
+    height: 40px;
+    margin-left: 20px;
+    width: 100px;
+    font: 15px "Roboto",sans-serif;
+
+}
+
+footer {
+    height: 350px;
+    background-color: #2a2d34;
+    margin-top: 0px;
+    position: absolute;
+    width: 1370px;
+    color: #7e7f84;
+    font-size: 15px;
+}
+footer > div > p{
+
+line-height: 100%;
+margin-bottom: 10px;
+margin-top: 0;
+}
+
+footer > div > p.white{
+
+color: #FFF;
+}
+
+.footer1{
+    margin-left: 100px;
+    float: left;
+
+
+}
+
+footer  h3 {
+    margin-top: 50px;
+   
+color: #FFF;}
+.footer2{
+    margin-left: 30px;
+    width: 270px;
+    float: left;
+
+}
+
+
+.sprite {
+    background:url('../images/sprite.png') no-repeat;
+
+}
+
+.linkSprite{
+    display: block;
+    width: 32px;
+    height: 19px;
+}
+
+.facebook{
+    width: 32px;
+    height: 19px;
+    display: inline-block;
+
+ 
+   background-position: 0px 0px;
+}
+
+.twitter{
+    width: 32px;
+    height: 19px;
+    display: inline-block;
+    background-position: -32px 0px;
+}
+
+.google{
+    width: 32px;
+    height: 19px;
+    display: inline-block;
+    background-position: -64px 0px;
+}
+
+.vimeo{
+    width: 32px;
+    height: 19px;
+    display: inline-block;
+    background-position: -96px 0px;
+}
+
+.rss{
+    width: 32px;
+    height: 19px;
+    display: inline-block;
+    background-position: -128px 0px;
+}
+
+
+.footer3{
+    margin-left: 30px;
+    width: 270px;
+    float: left;
+
+}
+
+.footer3 > ul{
+    list-style-type: none;
+    margin-left: -40px;
+    float: left;
+
+}
+
+.footer3 a{
+    color: #7e7f84;
+    text-decoration: none;
+}
+
+.footer3 a:hover{
+    color: #FFF;
+}
+
+
+
+input[name="footerEmail"] {
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    height: 35px;
+    color: #b2b2b2;
+    padding: 0 10px;
+    vertical-align: top;
+    width: 270px;
+    font: 19px "Roboto",sans-serif;
+    margin-bottom: 20px;
+
+}
+
+input[name="footerText"] {
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    height: 85px;
+    color: #b2b2b2;
+    padding: 0 10px;
+    vertical-align: top;
+    width: 270px;
+    font: 19px "Roboto",sans-serif;
+    margin-bottom: 20px;
+
+}
+form[name="contactUs"] {
+    
+
+    
+    
+   
+}
+
+button.sendFooterMessage {
+    color: #fff;
+    background-color: #ff674f;
+    border: none;
+    height: 40px;
+    
+    width: 145px;
+    font: 15px "Roboto",sans-serif;
+
+}

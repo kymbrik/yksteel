@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+   # RewriteEngine On
+
+	#RewriteBase /yksteel/
+	# RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
+ # RewriteCond %{REQUEST_FILENAME} !-f
+ #RewriteCond %{REQUEST_FILENAME} !-d
+   # RewriteRule ^id/([0-9]+)/?$ index.php?id=$1 [NC,L]
+	
+	RewriteRule ^.*$ mm.php
+
+</IfModule>

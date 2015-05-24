@@ -1,0 +1,32 @@
+body {
+    color: #8f8f8f;
+    font:19px 'Roboto', sans-serif;
+    background-color: #fff;
+    border-top: 5px solid #fff;
+    margin: auto;
+
+}
+
+#wrapper{
+   margin-left: auto;
+   margin-right: auto;
+
+   width: 660px;
+  
+}
+
+header{
+    
+    height: 60px;
+    padding: 0;
+}
+.logo{
+        position: absolute;
+        margin-top: 0px;
+        display: inline;
+        margin-left: 0px;
+        font-size: 23px;
+    }
+fieldset > h3 {
+	color: #f45a40;
+}
